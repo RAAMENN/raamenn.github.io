@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T23:05:30.000Z</updated>
+  <updated>2017-01-29T23:09:28.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>虾</title>
+    <link href="http://yoursite.com/2017/01/29/%E8%99%BE/"/>
+    <id>http://yoursite.com/2017/01/29/虾/</id>
+    <published>2017-01-29T23:07:48.000Z</published>
+    <updated>2017-01-29T23:09:28.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天在车厢里碰到了虾。车里人特多不知怎么的就站到了她的旁边。&lt;/p&gt;
+&lt;p&gt;“今天车可真挤啊。”她一身穿戴整齐仿佛看到熟人一般和我招呼道。&lt;/p&gt;
+&lt;p&gt;“啊啊。”&lt;/p&gt;
+&lt;p&gt;突然间一个刹车、她的须碰到了我。&lt;/p&gt;
+&lt;p&gt;“不好意思不好意思。看我这人（虾？）真是。”她
+    
+    </summary>
+    
+      <category term="sktech" scheme="http://yoursite.com/categories/sktech/"/>
+    
+    
+      <category term="sktech" scheme="http://yoursite.com/tags/sktech/"/>
+    
+      <category term="虾" scheme="http://yoursite.com/tags/%E8%99%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>beltfish</title>
