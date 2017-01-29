@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T23:09:28.000Z</updated>
+  <updated>2017-01-29T23:19:00.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>create your blog</title>
+    <link href="http://yoursite.com/2017/01/29/create-your-blog/"/>
+    <id>http://yoursite.com/2017/01/29/create-your-blog/</id>
+    <published>2017-01-29T23:18:02.000Z</published>
+    <updated>2017-01-29T23:19:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a brief guide to set up your personal blog(on macOS). Using &lt;a href=&quot;https://hexo.io/&quot; title=&quot;hexo&quot;&gt;hexo&lt;/a&gt; and &lt;a href=&quot;https://github.com/&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt; can make your blog available to everyone. Thanks to these amazing developers.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="technical" scheme="http://yoursite.com/categories/technical/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+      <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>虾</title>
     <link href="http://yoursite.com/2017/01/29/%E8%99%BE/"/>
     <id>http://yoursite.com/2017/01/29/虾/</id>
     <published>2017-01-29T23:07:48.000Z</published>
-    <updated>2017-01-29T23:09:28.000Z</updated>
+    <updated>2017-01-29T23:17:38.000Z</updated>
     
     <summary type="html">
     
@@ -28,7 +54,7 @@
 &lt;p&gt;“今天车可真挤啊。”她一身穿戴整齐仿佛看到熟人一般和我招呼道。&lt;/p&gt;
 &lt;p&gt;“啊啊。”&lt;/p&gt;
 &lt;p&gt;突然间一个刹车、她的须碰到了我。&lt;/p&gt;
-&lt;p&gt;“不好意思不好意思。看我这人（虾？）真是。”她
+&lt;p&gt;“不好意思不好意思。看我这人（虾？）真是。”她赶忙道歉。&lt;br&gt;
     
     </summary>
     
@@ -62,32 +88,6 @@
       <category term="sketch" scheme="http://yoursite.com/tags/sketch/"/>
     
       <category term="带鱼" scheme="http://yoursite.com/tags/%E5%B8%A6%E9%B1%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Create your own blog with hexo&amp;Github</title>
-    <link href="http://yoursite.com/2017/01/29/Create%20your%20own%20blog%20with%20hexo&amp;Github/"/>
-    <id>http://yoursite.com/2017/01/29/Create your own blog with hexo&amp;Github/</id>
-    <published>2017-01-29T18:21:44.000Z</published>
-    <updated>2017-01-29T23:05:18.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This is a brief guide to set up your personal blog(on macOS). Using &lt;a href=&quot;https://hexo.io/&quot; title=&quot;hexo&quot;&gt;hexo&lt;/a&gt; and &lt;a href=&quot;https://github.com/&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt; can make your blog available to everyone. Thanks to these amazing developers.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="technical" scheme="http://yoursite.com/categories/technical/"/>
-    
-    
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
-    
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
-    
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
-    
-      <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
     
   </entry>
   
