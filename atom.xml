@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T22:41:29.000Z</updated>
+  <updated>2017-01-29T23:00:20.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>beltfish</title>
+    <link href="http://yoursite.com/2017/01/29/beltfish/"/>
+    <id>http://yoursite.com/2017/01/29/beltfish/</id>
+    <published>2017-01-29T22:51:53.000Z</published>
+    <updated>2017-01-29T23:00:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;七月的天气实在热得不行，连蝉鸣也晒化为一股瘴气死死地贴在玻璃窗上。说是紧密贴合丝毫不为过，无论怎样擦拭，窗外能看到的只有炫目得能将人脑髓融化的白光。&lt;/p&gt;
+&lt;p&gt;冰箱里似乎还有几支刚买不久的冷饮，回想着将他们买回家路上的感觉，随即一个激灵。那能将胸口灼伤的热度不管回忆多少
+    
+    </summary>
+    
+      <category term="sketch" scheme="http://yoursite.com/categories/sketch/"/>
+    
+    
+      <category term="sketch" scheme="http://yoursite.com/tags/sketch/"/>
+    
+      <category term="带鱼" scheme="http://yoursite.com/tags/%E5%B8%A6%E9%B1%BC/"/>
+    
+  </entry>
   
   <entry>
     <title>Create your own blog with hexo&amp;Github</title>
