@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T18:17:33.000Z</updated>
+  <updated>2017-01-29T18:25:35.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Create your own blog with Hexo&amp;Github</title>
-    <link href="http://yoursite.com/2017/01/29/Create-your-own-blog-with-Hexo-Github/"/>
-    <id>http://yoursite.com/2017/01/29/Create-your-own-blog-with-Hexo-Github/</id>
-    <published>2017-01-29T17:56:49.000Z</published>
-    <updated>2017-01-29T18:17:33.000Z</updated>
+    <title>Create your own blog with hexo&amp;Github</title>
+    <link href="http://yoursite.com/2017/01/29/Create-your-own-blog-with-hexo-Github/"/>
+    <id>http://yoursite.com/2017/01/29/Create-your-own-blog-with-hexo-Github/</id>
+    <published>2017-01-29T18:21:44.000Z</published>
+    <updated>2017-01-29T18:25:35.000Z</updated>
     
     <summary type="html">
     
@@ -28,10 +28,14 @@
     
     </summary>
     
+      <category term="technical" scheme="http://yoursite.com/categories/technical/"/>
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   
