@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T05:14:10.000Z</updated>
+  <updated>2017-01-29T17:57:41.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Create your own blog with Hexo&amp;Github</title>
+    <link href="http://yoursite.com/2017/01/29/Create-your-own-blog-with-Hexo-Github/"/>
+    <id>http://yoursite.com/2017/01/29/Create-your-own-blog-with-Hexo-Github/</id>
+    <published>2017-01-29T17:56:49.000Z</published>
+    <updated>2017-01-29T17:57:41.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;##Build your environment&lt;/p&gt;
+&lt;p&gt;###git&lt;/p&gt;
+&lt;p&gt;###Node.js&lt;/p&gt;
+&lt;p&gt;###hexo&lt;/p&gt;
+&lt;p&gt;##hexo&lt;/p&gt;
+&lt;p&gt;###A local blog&lt;/p&gt;
+&lt;p&gt;###Theme
+    
+    </summary>
+    
+    
+      <category term="github hexo" scheme="http://yoursite.com/tags/github-hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>我爱老婆</title>
