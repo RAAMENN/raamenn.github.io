@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-29T23:00:20.000Z</updated>
+  <updated>2017-01-29T23:05:30.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,12 +20,13 @@
     <link href="http://yoursite.com/2017/01/29/beltfish/"/>
     <id>http://yoursite.com/2017/01/29/beltfish/</id>
     <published>2017-01-29T22:51:53.000Z</published>
-    <updated>2017-01-29T23:00:20.000Z</updated>
+    <updated>2017-01-29T23:05:30.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;七月的天气实在热得不行，连蝉鸣也晒化为一股瘴气死死地贴在玻璃窗上。说是紧密贴合丝毫不为过，无论怎样擦拭，窗外能看到的只有炫目得能将人脑髓融化的白光。&lt;/p&gt;
-&lt;p&gt;冰箱里似乎还有几支刚买不久的冷饮，回想着将他们买回家路上的感觉，随即一个激灵。那能将胸口灼伤的热度不管回忆多少
+&lt;p&gt;冰箱里似乎还有几支刚买不久的冷饮，回想着将他们买回家路上的感觉，随即一个激灵。那能将胸口灼伤的热度不管回忆多少遍都不算坏。&lt;/p&gt;
+&lt;p&gt;打开冷藏室后，我看到了一条带鱼。&lt;br&gt;
     
     </summary>
     
@@ -43,11 +44,11 @@
     <link href="http://yoursite.com/2017/01/29/Create-your-own-blog-with-hexo-Github/"/>
     <id>http://yoursite.com/2017/01/29/Create-your-own-blog-with-hexo-Github/</id>
     <published>2017-01-29T18:21:44.000Z</published>
-    <updated>2017-01-29T22:41:29.000Z</updated>
+    <updated>2017-01-29T23:05:18.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;This is a brief guide to set up your personal blog(on macOS). Using &lt;a href=&quot;https://hexo.io/&quot; title=&quot;hexo&quot; target=&quot;_blank&quot; rel=&quot;external
+      &lt;p&gt;This is a brief guide to set up your personal blog(on macOS). Using &lt;a href=&quot;https://hexo.io/&quot; title=&quot;hexo&quot;&gt;hexo&lt;/a&gt; and &lt;a href=&quot;https://github.com/&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt; can make your blog available to everyone. Thanks to these amazing developers.&lt;br&gt;
     
     </summary>
     
