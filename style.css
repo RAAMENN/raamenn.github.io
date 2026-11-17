@@ -1,0 +1,281 @@
+/* raamenn.github.io
+   Colours are defined once here; the dark palette below is applied
+   automatically when the visitor's device is in dark mode. */
+
+:root {
+  --bg: #fbf7f1;
+  --text: #29241f;
+  --muted: #6e645a;
+  --line: #e8dfd3;
+  --accent: #d97a2b;        /* decoration: underlines, glow */
+  --accent-text: #a5520e;   /* accent used for text, readable on --bg */
+
+  /* arrow icon shown on each project row */
+  --arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4.5 11.5l7-7M5.5 4.5h6v6'/%3E%3C/svg%3E");
+
+  --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas,
+    "Liberation Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161311;
+    --text: #f0e9e0;
+    --muted: #a59a8d;
+    --line: #2f2924;
+    --accent: #f0a35c;
+    --accent-text: #f2ad6b;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  /* a faint warm glow behind the top of the page */
+  background-image: radial-gradient(
+    60rem 28rem at 50% -8rem,
+    color-mix(in srgb, var(--accent) 14%, transparent),
+    transparent
+  );
+  background-repeat: no-repeat;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* ---------- layout ---------- */
+
+.page {
+  flex: 1;
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 13vh, 7.5rem) 1.5rem 2rem;
+}
+
+section {
+  margin-top: clamp(3rem, 8vh, 4.5rem);
+}
+
+h2 {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ---------- intro ---------- */
+
+.avatar {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 30%;
+  object-fit: cover;
+  box-shadow:
+    0 0 0 1px var(--line),
+    0 18px 36px -18px rgb(60 35 10 / 0.45);
+}
+
+h1 {
+  margin: 1.75rem 0 0;
+  font-size: clamp(2.75rem, 11vw, 4.25rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.tagline {
+  margin: 0.6rem 0 0;
+  color: var(--accent-text);
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.bio {
+  max-width: 34rem;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 1.125rem;
+}
+
+/* ---------- projects ---------- */
+
+.projects,
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects {
+  border-top: 1px solid var(--line);
+}
+
+.projects li {
+  border-bottom: 1px solid var(--line);
+}
+
+.projects a {
+  position: relative;
+  display: block;
+  padding: 1.05rem 2.5rem 1.05rem 0;
+  text-decoration: none;
+}
+
+.project-name {
+  display: block;
+  font-weight: 600;
+  transition: color 0.15s ease;
+}
+
+.project-desc {
+  display: block;
+  color: var(--muted);
+  font-size: 0.975rem;
+}
+
+/* the little arrow on the right of each project row */
+.projects a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0.25rem;
+  width: 1rem;
+  height: 1rem;
+  margin-top: -0.5rem;
+  background-color: var(--muted);
+  -webkit-mask: var(--arrow) center / contain no-repeat;
+  mask: var(--arrow) center / contain no-repeat;
+  transition:
+    transform 0.2s ease,
+    background-color 0.15s ease;
+}
+
+.projects a:hover .project-name,
+.projects a:focus-visible .project-name {
+  color: var(--accent-text);
+}
+
+.projects a:hover::after,
+.projects a:focus-visible::after {
+  background-color: var(--accent-text);
+  transform: translate(2px, -2px);
+}
+
+/* ---------- links ---------- */
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.75rem;
+}
+
+.links a {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.3em;
+  transition: color 0.15s ease;
+}
+
+.links a:hover {
+  color: var(--accent-text);
+}
+
+/* ---------- footer ---------- */
+
+.footer {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2.5rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* ---------- 404 page ---------- */
+
+.notfound .code {
+  margin: 0;
+  color: var(--accent-text);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.notfound h1 {
+  margin-top: 0.75rem;
+  font-size: clamp(2.25rem, 9vw, 3.25rem);
+}
+
+.notfound .links {
+  margin-top: 2rem;
+}
+
+/* ---------- motion ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  .intro > *,
+  .page > section {
+    animation: rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+
+  .intro > :nth-child(2) { animation-delay: 0.05s; }
+  .intro > :nth-child(3) { animation-delay: 0.1s; }
+  .intro > :nth-child(4) { animation-delay: 0.15s; }
+  .page > section:nth-of-type(1) { animation-delay: 0.22s; }
+  .page > section:nth-of-type(2) { animation-delay: 0.29s; }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+}
